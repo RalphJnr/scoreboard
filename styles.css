@@ -1,0 +1,74 @@
+body {
+  background-color: pink;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board {
+  background-color: #1b244a;
+  padding: 30px 50px;
+  width: 575px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 69px 82px;
+}
+
+.home-heading,
+.guest-heading {
+  color: #eeeeee;
+  font-family: Verdana;
+  margin-bottom: 0;
+}
+
+.home-score,
+.guest-score {
+  width: 155px;
+  height: 120px;
+  background-color: #080001;
+  color: #f94f6d;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 90px;
+  font-weight: 400;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 26px;
+}
+
+.btn {
+  border: 2px solid #9aabd8;
+  background: none;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #9aabd8;
+  border-radius: 5px;
+  width: 45px;
+  height: 45px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#restart {
+  background: rgb(80, 128, 49);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#restart:hover {
+  padding: 11px 21px;
+}
